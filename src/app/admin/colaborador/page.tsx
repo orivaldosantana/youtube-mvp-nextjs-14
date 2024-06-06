@@ -1,4 +1,4 @@
-import FormColaborador from "@/app/ui/forms/colaborador"
+import FormColaborador from "@/ui/forms/colaborador"
 
 export default function ColaboradorPage() {
   return (

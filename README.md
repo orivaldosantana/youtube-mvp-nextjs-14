@@ -9,3 +9,4 @@ Um resumo com os principais conceitos do curso pode ser acessado [aqui neste lin
 ## Vídeos 
 
 * [Olá Mundo em Next.js14](https://youtu.be/LLH94tb1mv0)
+* [Enviado dados do formulário para o lado servidor - Server Actions]()

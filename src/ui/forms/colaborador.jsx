@@ -1,6 +1,8 @@
+import { addTeste } from "@/app/lib/action"
+
 export default function FormColaborador() {
   return (
-    <form>
+    <form action={addTeste}>
       <div>
         <label>
           Nome:

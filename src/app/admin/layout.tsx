@@ -1,4 +1,4 @@
-import Header from "@/ui/forms/header"
+import Header from "@/ui/header"
 import Navbar from "@/ui/navbar"
 import { Box } from "@mui/material"
 

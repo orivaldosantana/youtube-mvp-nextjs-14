@@ -1,11 +1,11 @@
-import Header from "@/ui/header"
-import Navbar from "@/ui/navbar"
-import { Box } from "@mui/material"
+import Header from "@/ui/header";
+import Navbar from "@/ui/navbar";
+import { Box, Container } from "@mui/material";
 
 export default function PagesLayout({
   children,
 }: Readonly<{
-  children: React.ReactNode
+  children: React.ReactNode;
 }>) {
   return (
     <div>
@@ -13,9 +13,20 @@ export default function PagesLayout({
         <Header />
       </div>
       <Box sx={{ flexDirection: "row", display: "flex" }}>
-        <Navbar />
-        {children}
+        <div>
+          <Navbar />
+        </div>
+        <Container
+          sx={{
+            width: "100%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "start",
+          }}
+        >
+          {children}
+        </Container>
       </Box>
     </div>
-  )
+  );
 }

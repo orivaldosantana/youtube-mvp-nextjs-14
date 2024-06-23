@@ -12,3 +12,6 @@ Um resumo com os principais conceitos do curso pode ser acessado [aqui neste lin
 * [Enviando dados do formulário para o lado servidor - Server Actions](https://youtu.be/ivnfwPCS9pU)
 * [Melhorando o design da interface gráfica usando  componentes de Material UI](https://youtu.be/FLjpUoMq8VY)
 * [Organizando o layout da aplicação, criando um cabeçalho e um menu lateral](https://youtu.be/qvgSyfNMjb0)
+* Para gravar 
+  * [Introdução ao Prisma]()
+  * [Gravando no banco de dados]()

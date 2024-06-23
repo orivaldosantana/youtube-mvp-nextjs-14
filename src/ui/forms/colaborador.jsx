@@ -1,4 +1,4 @@
-import { addTeste } from "@/app/lib/action"
+import { addUser } from "@/app/lib/action"
 import TextField from "@mui/material/TextField"
 import Box from "@mui/material/Box"
 import Button from "@mui/material/Button" // Add this line to import the Button component
@@ -12,7 +12,7 @@ export default function FormColaborador({ title }) {
       <Typography variant="h4" sx={{ marginBottom: 2 }}>
         {title}
       </Typography>
-      <form action={addTeste}>
+      <form action={addUser}>
         <TextField
           name="nome"
           label="Nome"

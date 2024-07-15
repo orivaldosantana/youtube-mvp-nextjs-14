@@ -17,8 +17,6 @@ export default function FormColaborador({ title }) {
   const [openAlert, setOpenAlert] = useState(false)
 
   useEffect(() => {
-    console.log(state)
-    //setOpenAlert(true)
     if (state?.message) setOpenAlert(true)
   }, [state])
 
@@ -46,7 +44,12 @@ export default function FormColaborador({ title }) {
           variant="filled"
           sx={{ marginBottom: 2 }}
         />
-        <Button variant="contained" type="submit" fullWidth>
+        <Button
+          variant="contained"
+          type="submit"
+          fullWidth
+          sx={{ marginTop: 2, marginBottom: 4 }}
+        >
           Cadastrar Colaborador
         </Button>
         <Collapse in={openAlert}>

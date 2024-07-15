@@ -12,8 +12,9 @@ Um resumo com os principais conceitos do curso pode ser acessado [aqui neste lin
 - [Enviando dados do formulário para o lado servidor - Server Actions](https://youtu.be/ivnfwPCS9pU)
 - [Melhorando o design da interface gráfica usando componentes de Material UI](https://youtu.be/FLjpUoMq8VY)
 - [Organizando o layout da aplicação, criando um cabeçalho e um menu lateral](https://youtu.be/qvgSyfNMjb0)
+- [Introdução ao Prisma](https://youtu.be/ZJcJtBNOfdw) 
+- [Gravando no banco de dados](https://youtu.be/FgzjC3RzdoY)
+- [Recupeando dados do banco de dados](https://youtu.be/CDWrgcagmxM)
+- [Adicionando avisos para as operações de cadastro e recuperação de dados](https://youtu.be/wOnusAi9eaY)
 - Para gravar
-  - [Introdução ao Prisma]()
-  - [Gravando no banco de dados]()
-  - [Recupeando dados do banco de dados]()
-  - [Adicionando avisos para as operações de cadastro e recuperação de dados]
+  - [Autenticação com Next Auth]
